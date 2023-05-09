@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coin-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.coin-img {
+  height: 170px;
+  width: 170px;
+}
+.btn {
+  background-color: #f9d423;
+  color: #a35200;
+  border: solid 1px #e2a139;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tossResult-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.result {
+  padding: 15px;
+}
